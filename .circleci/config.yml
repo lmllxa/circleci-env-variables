@@ -12,6 +12,7 @@ jobs:
       - image: cimg/base:stable
     environment:
       AUTHOR_NAME: "Ah Liang"
+      MY_ENV_VAR: "My Secret key"
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
